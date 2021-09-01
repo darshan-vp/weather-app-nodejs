@@ -1,0 +1,17 @@
+{
+    "env": {
+        "node": true,
+        "es6": true,
+        "browser": true // Set this true to  disable errors related to browser globals undefined
+    },
+    "extends": ["eslint:recommended"],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ]
+    }
+}
