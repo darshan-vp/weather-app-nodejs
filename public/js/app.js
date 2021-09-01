@@ -6,7 +6,7 @@ let message2 = document.getElementById('message2')
 form.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = searchText.value
-    const url = 'http://localhost:3000/weather?address=' + location
+    const url = '/weather?address=' + location
 
     message1.innerHTML = ''
     message1.innerHTML = 'Loading...'
